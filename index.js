@@ -22,4 +22,9 @@ const persona = {
 console.log(persona)
 console.log(persona.saludar)
 */
-
+let nombre = 'deiber'
+function saludar (nombre){
+    let saludo = `hola ${nombre} que tal todo?`;
+    console.log(saludo);
+}
+saludar(nombre);
